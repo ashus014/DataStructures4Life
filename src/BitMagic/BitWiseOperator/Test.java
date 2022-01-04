@@ -183,12 +183,18 @@ public class Test {
         }
     }
 
+    //05 - Subset sum problem
+    static int countSubSets(int arr[], int n, int sum){
+        if(n == 0)
+            return (sum == 0)?1:0;
+        return countSubSets(arr, n-1, sum) + countSubSets(arr, n-1, sum-arr[n-1]);
+    }
+
 
 
     public static void main(String[] args) {
 
-        //int[] array = {11,22,11,22,33,44,33};
-        System.out.println("------");
-        printPowerSet("ashu");
+        int[] array = {10, 20, 15};
+        System.out.println(countSubSets(array, 3, 25));
     }
 }

@@ -93,14 +93,14 @@ public class Test {
 
     // 7- Check if the String is Palindrome using Recursion
     static boolean isPalindrome(String str, int start, int end){
-        if(start == end)
+        if(start >= end)
             return true;
-        return isPalindrome(str, start+1, end-1);
+        return (str.charAt(start) == str.charAt(end) && isPalindrome(str, start+1, end-1));
     }
 
 
     public static void main(String[] args) {
-        String str = "abcba";
+        String str = "abdcba";
         System.out.println(isPalindrome(str, 0, str.length()-1));
     }
 }
