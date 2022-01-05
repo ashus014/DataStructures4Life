@@ -17,6 +17,10 @@ package Search.BinarySearch;
 *           ii> Element is less than mid
 *           iii> Element is greater than mid
 *
+* Time complexity of Binary search is -> log n
+*
+* So, it's always a good idea to use binary search when the elements are sorted.
+*
 * */
 
 public class BinarySearch {
@@ -35,9 +39,14 @@ public class BinarySearch {
     }
 
     //02 - Binary search recursive approach
-    static int recursiveBinarySearch(){
-
-        return -1;
+    static int recursiveBinarySearch(int[] array, int low, int high, int x){
+        if(low > high) return -1;
+        int mid = (low + high)/2;
+        if(array[mid] == x) return mid;
+        else if(array[mid] > x)
+            return recursiveBinarySearch(array, low, mid-1, x);
+        else
+            return recursiveBinarySearch(array, mid+1, high, x);
     }
 
     public static void main(String[] args) {
