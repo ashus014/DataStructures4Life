@@ -144,7 +144,26 @@ Chaining VS Open Addressing
 3. Poor cache performance || Cache friendly
 4. Extra space for links || Extra space might be needed to achieve same performance as Chaining.
 
+----------------
+HashSet in JAVA
+----------------
+HashSet is used to store only keys
 
+add()
+remove()
+contains()
+
+uses time complexity of O(1), since they use hashing
+
+size()
+isEmpty()
+
+these time complexity is also O(1)
+
+----------------
+HashMap in JAVA
+----------------
+HashMap is used to store key - value pairs.
 
 
 
