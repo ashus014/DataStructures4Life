@@ -98,7 +98,15 @@ If you know the data in advance then there is a method called "Perfect Hashing" 
 But we'll be mostly working on values that are not known, for which we can use Chaining, Open Addressing.
 
 1. Chaining - We make a chain of colliding items.
-2. Open Addressing - We use the same array, and if the position is occupied, we try to put the key in some other slot.
+
+2. Open Addressing -
+We use the same array, and if the position is occupied, we try to put the key in some other slot.
+So the minimum requirement of Open Addressing is we should have at-least same HashTable Size to that of keys which we are inserting.
+It is cache friendly because we are using the same Array.
+There are multiple way to do implement Open Addressing -
+- Linear Probing
+- Quadratic Probing
+- Double Hashing
 
 [Always select the Hashtable size a Prime Number value]
 
@@ -110,8 +118,26 @@ Performance of Chaining -
 m = no. of slots in hashTable
 n = no. of keys to be inserted
 
-Load Factor means how big you want your hash table to be, usually recommended to keep it small.
+Load Factor means how big you want your hash table to be, usually recommended keeping it small.
 Load factor = n/m
+
+Double Hashing
+--------------
+In this we use two hash functions, onr hash function is the original Hash Function.
+Another Hash Function to find the next slot, while searching for free slot.
+
+It also distributes keys more uniformly as compared to Linear probing & Quadratic probing.
+
+hash(key,i) = (h1(key) + ih2(key)) % m
+
+where,
+h1(key) = (key % 7)
+h2(key) = 6 - (key % 6)
+
+also, h2(key) & m should be relatively prime.
+
+
+
 
 
 

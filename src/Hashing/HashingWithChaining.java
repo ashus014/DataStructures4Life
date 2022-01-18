@@ -5,7 +5,8 @@ import java.util.LinkedList;
 
 //A Hash Function with Chaining in JAVA
 //We are creating an ArrayList of LinkedLists
-public class Hashing {
+
+public class HashingWithChaining {
 
     int BUCKET;
     ArrayList<LinkedList<Integer>> table;
