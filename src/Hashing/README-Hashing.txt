@@ -137,6 +137,15 @@ h2(key) = 6 - (key % 6)
 also, h2(key) & m should be relatively prime.
 
 
+Chaining VS Open Addressing
+---------------------------
+1. Hash Table never gets fills || Table may become full and resizing becomes mandatory.
+2. Less sensitive to Hash Functions || Extra care required for clustering.
+3. Poor cache performance || Cache friendly
+4. Extra space for links || Extra space might be needed to achieve same performance as Chaining.
+
+
+
 
 
 
