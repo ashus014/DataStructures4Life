@@ -118,7 +118,7 @@ Performance of Chaining -
 m = no. of slots in hashTable
 n = no. of keys to be inserted
 
-Load Factor means how big you want your hash table to be, usually recommended keeping it small.
+Load Factor (alpha) means how big you want your hash table to be, usually recommended keeping it small.
 Load factor = n/m
 
 Double Hashing
