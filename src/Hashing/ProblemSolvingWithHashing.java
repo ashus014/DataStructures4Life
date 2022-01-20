@@ -71,11 +71,26 @@ public class ProblemSolvingWithHashing {
         System.out.println(set.size());
     }
 
-    public static void main(String[] args) {
+    //pair with a given sum in unsorted array
+    boolean isPair(Integer[] arr, int sum){
+        Set<Integer> set = new HashSet<>();
+        for(int x : arr){
+            if(set.contains(sum - x))
+                return true;
+            else
+                set.add(x);
+        }
+        return false;
+    }
 
+    //sub-array (group of continuous elements) with given sum
+
+
+
+    public static void main(String[] args) {
         Integer[] ashu1 = {15,20,5,15};
         Integer[] ashu2 = {15,15,15,20,10};
         ProblemSolvingWithHashing p = new ProblemSolvingWithHashing();
-        p.countOfTwoUnsortedArrays(ashu1,ashu2);
+        System.out.println(p.isPair(ashu1,36));
     }
 }
