@@ -7,12 +7,17 @@ Completed
 
 [Searching]
 20.01.22 - Resuming with the Searching again
-20.01.22 - Searching Completed (Basically worked on Binary Searching)
+- Searching Completed (Basically worked on Binary Searching)
 
 [Sorting]
 20.01.22 - Started with Sorting
+- Stopping on Selection Sort section will continue from there.
 
-
+[Matrix]
+20.01.22 - Started with Matrix
+- Stopping on : Matrix Boundary Traversal
 
 [Hashing] - Starting with this, due to increase in demand
 20.01-22 - Hashing Completed successfully
+
+[Strings] -
