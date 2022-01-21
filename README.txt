@@ -20,4 +20,8 @@ Completed
 [Hashing] - Starting with this, due to increase in demand
 20.01-22 - Hashing Completed successfully
 
-[Strings] -
+[Strings]
+20.01-22 - Started with Strings
+21.01.22 - Stopping on : Leftmost repeating Character
+
+[Linked Lists]
