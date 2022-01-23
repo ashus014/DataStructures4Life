@@ -26,3 +26,7 @@ Completed
 
 [Linked Lists]
 23.01.22 - Stopped on  : Insert at the end of Singly Linked List
+
+[Stack]
+23.01.22 - Started with Stack
+23.01.22 - Stopped on  : Stock span problem
