@@ -25,8 +25,19 @@ Completed
 21.01.22 - Stopping on : Leftmost repeating Character
 
 [Linked Lists]
-23.01.22 - Stopped on  : Insert at the end of Singly Linked List
+23.01.22 - Stopped on : Insert at the end of Singly Linked List
 
 [Stack]
 23.01.22 - Started with Stack
-23.01.22 - Stopped on  : Stock span problem
+23.01.22 - Stopped on : Stock span problem
+
+[Queue]
+23.01.22 - Started with Queue
+23.01.22 - Stopped on : Java Collections Queue
+
+[Deque]
+23.01.22 - Started with Doubly Ended Queue
+23.01.22 - Stopped on : Deque using ArrayDeque
+
+[Tree]
+23.01.22 - Started with Tree
