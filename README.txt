@@ -25,3 +25,4 @@ Completed
 21.01.22 - Stopping on : Leftmost repeating Character
 
 [Linked Lists]
+23.01.22 - Stopped on  : Insert at the end of Singly Linked List
