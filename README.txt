@@ -25,3 +25,4 @@ Completed
 21.01.22 - Stopping on : Leftmost repeating Character
 
 [Linked Lists]
+On first Video
