@@ -1,10 +1,6 @@
 package Tree.BinaryTree;
 
 //Implementation of Binary Tree in Java
-// Inorder-PreOrder-PostOrder is done only during DFS traversal
-//Inorder -> left-root-right
-//PreOrder -> root-left-right
-//PostOrder -> left-right-root
 
 class Node{
     int key;
@@ -31,6 +27,15 @@ public class Test {
             inOrder(root.left);
             System.out.print(root.key + " ");
             inOrder(root.right);
+        }
+    }
+
+    //function to preOrder traverse the Binary tree with a given root
+    static void preOrder(Node root){
+        if(root != null){
+            preOrder(root.left);
+            System.out.print(root.key + " ");
+            preOrder(root.right);
         }
     }
 
