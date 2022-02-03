@@ -36,6 +36,7 @@ public class Test {
             preOrder(root.left);
             System.out.print(root.key + " ");
             preOrder(root.right);
+
         }
     }
 
