@@ -9,17 +9,7 @@ class Node{
     Node(int key){this.key = key;}
 }
 
-public class Test {
-
-    public static void main(String[] args) {
-        Node root = new Node(10);
-        root.left= new Node(20);
-        root.right = new Node(30);
-        root.right.left = new Node(40);
-        root.right.right = new Node(50);
-        //inOrder(root);
-        postOrder(root);
-    }
+public class DfsTraversal {
 
     //function to inOrder traverse the Binary tree with a given root
     static void inOrder(Node root){
@@ -33,8 +23,8 @@ public class Test {
     //function to preOrder traverse the Binary tree with a given root
     static void preOrder(Node root){
         if(root != null){
-            preOrder(root.left);
             System.out.print(root.key + " ");
+            preOrder(root.left);
             preOrder(root.right);
 
         }
@@ -47,5 +37,16 @@ public class Test {
             postOrder(root.right);
             System.out.print(root.key + " ");
         }
+    }
+
+    public static void main(String[] args) {
+        Node root = new Node(10);
+        root.left= new Node(20);
+        root.right = new Node(30);
+        root.right.left = new Node(40);
+        root.right.right = new Node(50);
+        preOrder(root);
+        //inOrder(root);
+        //postOrder(root);
     }
 }
