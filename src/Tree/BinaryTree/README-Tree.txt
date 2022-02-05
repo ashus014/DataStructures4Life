@@ -31,3 +31,8 @@ Inorder-PreOrder-PostOrder is done only during DFS traversal
 Inorder -> left-root-right
 PreOrder -> root-left-right
 PostOrder -> left-right-root
+
+----------------------------------------
+    Height of Binary Tree
+----------------------------------------
+Max no. of nodes from root to leaf paths.
