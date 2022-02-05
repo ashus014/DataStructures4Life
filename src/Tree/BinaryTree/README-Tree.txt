@@ -36,3 +36,8 @@ PostOrder -> left-right-root
     Height of Binary Tree
 ----------------------------------------
 Max no. of nodes from root to leaf paths.
+
+-------------------------------------------
+    Level Order traversal OR BFS Traversal
+-------------------------------------------
+

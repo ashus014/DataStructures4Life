@@ -41,3 +41,7 @@ Completed
 
 [Tree]
 23.01.22 - Started with Tree
+05.02.22 - Stopped at Level Order Traversal
+
+[Binary Search Tree]
+05.02.22 - Started with BSTs
