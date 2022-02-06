@@ -38,3 +38,6 @@ BSTs are almost same as Binary Tree, the only difference is that they have speci
 There is order in how you insert elements.
 Order also needs to be maintained while deleting items.
 
+Search in BST - Worst time taken during search in BST is the height of BST.
+
+
