@@ -45,7 +45,7 @@ Completed
 
 [Binary Search Tree]
 05.02.22 - Started with BSTs
-06.02.22 - Insert in BST
+06.02.22 - Insert in BSTs
 
 
 
