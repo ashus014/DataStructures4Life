@@ -14,6 +14,7 @@ public class WorkingWithDequeWithLinkedList {
         d.offerFirst(5);
         d.offerLast(15);
 
+
         System.out.println(d.peekFirst());
         System.out.println(d.peekLast());
 
