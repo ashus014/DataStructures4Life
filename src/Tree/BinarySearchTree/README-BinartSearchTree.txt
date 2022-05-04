@@ -38,6 +38,19 @@ BSTs are almost same as Binary Tree, the only difference is that they have speci
 There is order in how you insert elements.
 Order also needs to be maintained while deleting items.
 
-Search in BST - Worst time taken during search in BST is the height of BST.
+Search in BST -
+-------------
+Worst time taken during search in BST is the height of BST.
+
+Deleting in BST -
+---------------
+1. Deleting a leaf node is easy
+2. Delete a node with one child is also easy
+3. But we face some issue when the node is let's say a root node - the node needs to be replaces with the closest lower/higher value.
+
+It's up-to you to select but have one rule & follow it throughout.
+So find the inorder successor and replace the deleted node with inorder successor and delete the inorder successor.
+
+The aim is that the BST property should not be violated.
 
 
