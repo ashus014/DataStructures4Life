@@ -67,6 +67,23 @@ public class BinarySearchTree {
         return curr;
     }
 
+    //Finding floor in BST
+    static Node floor(Node root, int x){
+        Node res = null;
+
+        while(root != null) {
+            if (root.key == x)
+                return root;
+            else if (root.key > x)
+                root = root.left;
+            else {
+                res = root;
+                root = root.right;
+            }
+        }
+        return res;
+    }
+
 
     public static void main(String[] args) {
 
@@ -80,7 +97,8 @@ public class BinarySearchTree {
 
         //System.out.println(search(head, 33));
         //delNode(head, 15);
-        System.out.println(search(head, 15));
+        //System.out.println(search(head, 15));
+        System.out.println(floor(head, 17).key);
 
     }
 }

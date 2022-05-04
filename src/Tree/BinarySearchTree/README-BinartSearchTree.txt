@@ -53,4 +53,23 @@ So find the inorder successor and replace the deleted node with inorder successo
 
 The aim is that the BST property should not be violated.
 
+Floor in BST -
+------------
+To find the largest value which is smaller than the given value.
+If no smaller value present, then return null.
+
+--------------------------------
+Self Balancing BSTs
+--------------------------------
+
+Which keeps balancing themselves, it's not that thr height of left side is more than right side.
+AVL Tree & Red Black Trees are the example of Self balancing trees.
+
+AVL Tree -
+This is very strict in terms of height. It tries to maintain very strict balance.
+
+Red Black Tree -
+It is slightly loose in terms of balance. Since this is loose in terms of balance.
+It requires less restructuring if you are doing insert or delete.
+
 

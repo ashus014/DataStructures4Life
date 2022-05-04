@@ -47,5 +47,6 @@ Completed
 05.02.22 - Started with BSTs
 06.02.22 - Insert in BSTs
 04.05.22 - Deletion in BSTs
+[AVL Tree video to start]
 
 
