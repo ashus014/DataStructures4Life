@@ -88,5 +88,13 @@ IMPORTANT
 Since searches are many and AVL Tree has the fastest search operation, always prefer AVL Tree.
 But when you have a mix of insertion, deletion & searches, Red-Black Tree is always a good option.
 
+Application of BST
+------------------
+To maintain sorted stream of data.
+To implement doubly ended priority queue.
+To solve problems like -
+    - count smaller/greater in a stream
+    - floor/ceiling/greater/smaller in a stream
+
 
 
