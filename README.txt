@@ -47,6 +47,15 @@ Completed
 05.02.22 - Started with BSTs
 06.02.22 - Insert in BSTs
 04.05.22 - Deletion in BSTs
-[AVL Tree video to start]
+21.05.22 - Stopped on :  Find kth smallest
+
+[Heap]
+21.05.22 - Started with Binary heap data structure
+21.05.22 - Stopped on : Binary Heap [Heapify & Extract]
+
+[Graph]
+21.05.22 - Started with Graph
+21.05.22 - Introduction to Graph completed
+
 
 
