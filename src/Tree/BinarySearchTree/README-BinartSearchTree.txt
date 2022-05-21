@@ -67,9 +67,26 @@ AVL Tree & Red Black Trees are the example of Self balancing trees.
 
 AVL Tree -
 This is very strict in terms of height. It tries to maintain very strict balance.
+It is a self-balancing binary search tree.
+It is also height balanced i.e., for every node, difference between left & right heights does not exceed one.
+Balance Factor = |lf - rh|
+Balance Factor <= 1
+AVL Tree does rotation to re-structure itself during insert and delete operations.
+
 
 Red Black Tree -
 It is slightly loose in terms of balance. Since this is loose in terms of balance.
 It requires less restructuring if you are doing insert or delete.
+Here as well, insertion & deletion operation requires some restructuring.
+Every node is either Red or Black.
+ROOT is always Black.
+No. two consecutive Reds are allowed.
+No. of black nodes from  every node to all its descandent leaves should be same.
+
+IMPORTANT
+----------
+Since searches are many and AVL Tree has the fastest search operation, always prefer AVL Tree.
+But when you have a mix of insertion, deletion & searches, Red-Black Tree is always a good option.
+
 
 
