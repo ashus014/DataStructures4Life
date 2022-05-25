@@ -41,7 +41,24 @@ Cyclic - if there exists a walk which starts and end on same vertex.
 
 Weighted - Here we have weights assigned to edges, it can be directed or undirected.
 eg - Connected cities where weight of edges represents distance between cities.
-Also computer networks are good examples for the same.
+Also, computer networks are good examples for the same.
+
+Graph Representation
+--------------------
+Graph can be represented in following ways -
+(1) Adjacency Matrix -
+For undirected graph the adjacency matrix is always symmetric.
+
+(2) Adjacency List -
+Adjacency List came into picture because earlier in Matrix we were storing information of vertex which are connected
+to each other, but we were also storing info of vertex which were also not connected to each other (which we don't require).
+
+So Adjacency List came into the picture.
+
+Adjacency List most popular representations are -
+(A) Dynamic Sized Arrays
+(B) Linked Lists
+
 
 
 
