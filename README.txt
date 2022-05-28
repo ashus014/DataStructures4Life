@@ -56,6 +56,11 @@ Completed
 [Graph]
 21.05.22 - Started with Graph
 21.05.22 - Introduction to Graph completed
+26.05.22 - Breadth First Search [to Start]
+28.05.22 - Stopped on : Shortest path in an Unweighted graph
+
+[Greedy]
+28.05.22 - Started Greedy
 
 
 

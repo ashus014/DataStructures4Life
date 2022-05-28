@@ -80,6 +80,16 @@ DFS Traversal in Graph
 ----------------------
 DFS is mainly recursive in nature.
 
+Application of DFS
+------------------
+1. Cycle Detection
+2. Topology Sorting
+3. Strongly connected components
+4. Solving Maze and similar problems
+5. Path Finding
+All backtracking algorithms uses DFS approach.
+
+
 
 
 

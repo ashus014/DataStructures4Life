@@ -43,6 +43,24 @@ public class AdjacencyList {
         }
     }
 
+    //DFS Traversal
+    static void DFS(ArrayList<ArrayList<Integer>> adj, int V, int s){
+        Boolean[] visited = new Boolean[V];
+
+        //Call DFS Recursion
+        DFSRec(adj,s, visited);
+    }
+
+    static void DFSRec(ArrayList<ArrayList<Integer>> adj, int s, Boolean[] visited){
+        visited[s] = true;
+        System.out.print(s + " ");
+        for(int u : adj.get(s)){
+            if(visited[u] == false){
+                DFSRec(adj, u, visited);
+            }
+        }
+    }
+
     public static void main(String[] args) {
 
         int V=5;
