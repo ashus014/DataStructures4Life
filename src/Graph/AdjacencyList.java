@@ -1,6 +1,9 @@
 package Graph;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
+
 /*
 *
 * Adjacency List representation of the Graph
@@ -22,6 +25,24 @@ public class AdjacencyList {
         }
     }
 
+    //doing BFS Traversal
+    static void BFS(ArrayList<ArrayList<Integer>> adj, int V, int s){
+        boolean[] visited = new boolean[V+1];
+        Queue<Integer> q = new LinkedList<>();
+        visited[s] = true;
+        q.add(s);
+        while (q.isEmpty() == false){
+            int u = q.poll();
+            System.out.println(u + " ");
+            for(int v : adj.get(u)){
+                if(visited[v] == false){
+                    visited[v] = true;
+                    q.add(v);
+                }
+            }
+        }
+    }
+
     public static void main(String[] args) {
 
         int V=5;
@@ -30,11 +51,21 @@ public class AdjacencyList {
         for(int i=0; i<V; i++){
             adj.add(new ArrayList<Integer>());
         }
-        addEdge(adj, 0, 1);
-        addEdge(adj, 0, 2);
-        addEdge(adj, 1, 2);
-        addEdge(adj, 1, 3);
+//        addEdge(adj, 0, 1);
+//        addEdge(adj, 0, 2);
+//        addEdge(adj, 1, 2);
+//        addEdge(adj, 1, 3);
 
-        printGraph(adj);
+        addEdge(adj,0,1);
+        addEdge(adj,0,2);
+        addEdge(adj,1,2);
+        addEdge(adj,1,3);
+        addEdge(adj,2,3);
+        addEdge(adj,2,4);
+        addEdge(adj,3,4);
+
+        BFS(adj,5,0);
+
+//        printGraph(adj);
     }
 }

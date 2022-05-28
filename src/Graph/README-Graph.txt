@@ -59,7 +59,26 @@ Adjacency List most popular representations are -
 (A) Dynamic Sized Arrays
 (B) Linked Lists
 
+----------------------
+BFS Traversal in Graph
+----------------------
+check the function code
 
+1. BFS is a Graph traversal algorithm, it takes a source and traverse all vertexes which are one edge away,
+then traverse which are two edge away.
+Advantage is, it finds the shortest path (in an unweighted graph).
+2. Crawlers in Search Engine
+3. Peer to peer Networks
+4. Social network Search
+5. In Garbage Collection (Cheney's Algorithm)
+6. Cycle detection
+7. Ford Fulkerson Algorithm
+8. Broadcasting
+
+----------------------
+DFS Traversal in Graph
+----------------------
+DFS is mainly recursive in nature.
 
 
 
