@@ -61,6 +61,8 @@ Completed
 
 [Greedy]
 28.05.22 - Started Greedy
+28.05.22 - Activity selection solution in Java
+16.05.22 - Knapsack Problem
 
 
 
