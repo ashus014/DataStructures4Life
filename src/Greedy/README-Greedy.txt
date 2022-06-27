@@ -46,8 +46,14 @@ Solution Approach-
 
 Overall Time complexity of Problem is O(n*lon(n))
 
-Knapsack Problem
+Knapsack Problem (Fractional)
 ----------------
 The knapsack problem is a problem in combinatorial optimization: Given a set of items,
 each with a weight and a value, determine the number of each item to include in a collection
 so that the total weight is less than or equal to a given limit and the total value is as large as possible.
+
+Solution:
+
+1. Calculate ratio (value/weight) for every item.
+2. Sort all items in decreasing order.
+3. For rest...follow the algorithm :)
