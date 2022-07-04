@@ -60,3 +60,15 @@ Solution:
 
 Job Sequencing Problem
 ----------------------
+Given an array of jobs where every job has a deadline and associated profit if the job is finished before the deadline.
+It is also given that every job takes a single unit of time, so the minimum possible deadline for any job is 1.
+How to maximize total profit if only one job can be scheduled at a time.
+
+Solution:
+
+1. Sort jobs in decreasing order of profit.
+2. Initialize the result as first job in the sorted list & assign the latest possible slot.
+3. Do the following for the remaining (n-1) jobs:
+    (a) If this job cannot be added, ignore it.
+    (b) Else, add it to the latest possible slot.
+
