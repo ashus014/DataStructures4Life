@@ -72,3 +72,10 @@ Solution:
     (a) If this job cannot be added, ignore it.
     (b) Else, add it to the latest possible slot.
 
+Huffman Coding Problem
+----------------------
+- used for lossless compression
+- variable length coding
+- prefix free code
+
+High level view : We create a Binary/Huffman tree
