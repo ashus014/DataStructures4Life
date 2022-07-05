@@ -65,5 +65,14 @@ Completed
 16.06.22 - Knapsack Problem
 04.07.22 - Stopped on : Java Implementation of Huffman coding
 
+[Backtracking]
+04.07.22 - Started Backtracking
+05.07.22 - Stopped on : Sudoku Problem
+
+[Dynamic Programming]
+05.07.22 - Started Dynamic Programming
+
+
+
 
 
