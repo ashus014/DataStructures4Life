@@ -24,6 +24,14 @@ Memoization
 
 Tabulation
 ----------
+This is a bottom-top approach, start form the small and work your way till the top.
+
+Memoization is most of the time easy to write, but that is not fast.
+The Tabulation solution is comparatively hard, but is fast.
+
+Longest Common Subsequence
+--------------------------
+
 
 
 
