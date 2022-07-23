@@ -31,6 +31,14 @@ The Tabulation solution is comparatively hard, but is fast.
 
 Longest Common Subsequence
 --------------------------
+Please see the GFG video
+
+Variations of LCS
+-----------------
+Please see the video
+
+1. Coin change count Problem
+2. Edit distance problem
 
 
 
