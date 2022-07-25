@@ -73,6 +73,16 @@ Completed
 05.07.22 - Started Dynamic Programming
 23.07.22 - Stopped on : Edit distance problem DP solution.
 
+[Trie]
+23.07.22 - Started with Trie
+23.07.22 - Stopped on : Trie Delete
+
+[Segment & Binary Indexed Tree]
+23.07.22 - Started
+
+[Disjoint Set]
+25.07.22 - Started Disjoint Set
+
 
 
 
