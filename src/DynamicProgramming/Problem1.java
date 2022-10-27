@@ -9,26 +9,21 @@ public class Problem1 {
     }
 
     public static void main(String[] args) {
-        int num = 4;
-        System.out.println(findFibonnaci(4));
+        int num = 6;
+        System.out.println(findFibonnaci(num));
     }
 
-    private static int findFibonnaci(int num) {
-        return helper(num);
-
-    }
-
-    private static int helper(int n) {
-
+    private static int findFibonnaci(int n) {
         if(memo[n] == -1) {
             int res;
             if(n==0 || n==1)
                 res = n;
             else
-                res = helper(n-1) + helper(n-2);
+                res = findFibonnaci(n-1) + findFibonnaci(n-2);
 
             memo[n] = res;
         }
         return memo[n];
+
     }
 }

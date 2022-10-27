@@ -71,7 +71,7 @@ Completed
 
 [Dynamic Programming]
 05.07.22 - Started Dynamic Programming
-23.07.22 - Stopped on : Edit distance problem DP solution.
+27.10.22 - The Longest Common Subsequence (Part-1)
 
 [Trie]
 23.07.22 - Started with Trie
