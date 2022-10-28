@@ -1,6 +1,6 @@
 package DynamicProgramming;
 
-// Longest common subsequence
+// Longest common subsequence (v.v.Important)
 public class Problem3 {
 
     // for memoization purpose
