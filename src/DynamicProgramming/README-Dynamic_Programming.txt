@@ -40,7 +40,7 @@ but usually not that easy. But the advantage is that it doesn't require the recu
 call overhead. Tabulation is comparatively faster as compared to Memoization.
 
 Variations of Longest Common Subsequence
---------------------------
+----------------------------------------
 1. Diff Utility - Mostly used in version control to show differences between two files.
 2. Minimum insertions and deletions to convert s1 into s2
 GEEK & GFEK
@@ -58,10 +58,39 @@ because 'A'A'B'B & A'A'B'B'
 
 Variations of LCS
 -----------------
-Please see the video
-
 1. Coin change count Problem
 2. Edit distance problem
+
+Variations of Longest Increasing Sub-sequence (LIS) Problem
+-----------------------------------------------------------
+1. Minimum deletions to make an array sorted
+For arr = {5,10,3,6,7,8} user need to delete 2 elements to make it sorted.
+So, output = 2
+possibility1 = {5,6,7,8} or possibility2 = {3,6,7,8}
+ans = n - lis
+
+2. Maximum sum increasing sub-sequence
+For arr = {3,20,4,6,7,30}
+maxSumSubSequence = {3,20,30} but maxIncreasingSubSequence = {3,4,6,7}
+Some change in the LIS code.
+
+3. Maximum length Bitonic Subsequnce
+What is Bitonic Subsequnce ?
+Ans - Which is first increasing then decreasing.
+arr = {1,11,2,10,4,5,2,1}
+ans = 6 i.e., {1,2,10,5,2,1}
+for sorted array, ans = length of the array (for both increasing and decreasing)
+sol - LIS from left, LIS from right
+LIS_Left[i] + LIS_Right[i] - 1 = which ever is greater is the answer
+
+4. Building Bridges
+(6,2)(4,3)(2,6)(1,5) : make bridge such that there is no overlap
+sol - 2 i.e., (2,6) & (1,5)
+Step 1: Sort them in increasing order of first value of pair.
+If two first values are same like (2,6) and (2,3), then consider second.
+Step 2: Find LIS of the sorted array according to second values.
+
+5. Longest Chain of Pairs
 
 
 
