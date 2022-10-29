@@ -1,6 +1,6 @@
 package DynamicProgramming;
 
-// Using tabulation in dynamic programming to solve problems
+// Using tabulation in dynamic programming to solve previous problems
 // v.v.important
 // Idea is to leave recursion, have an array or a table and build your solution in bottom-up manner.
 // Time Complexity - θ(n)

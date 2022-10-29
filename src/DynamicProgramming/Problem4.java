@@ -21,7 +21,7 @@ public class Problem4 {
         return countWays(coins, n, s - coins[n - 1]) + countWays(coins, n - 1, s);
     }
 
-    // Using tabulation approach to solve th problem
+    // Using Tabulation approach to solve the problem
     // Time Complexity - θ(n*s) with naive recursive approach
     //      0   1   2   3   4
     //  0   1   0   0   0   0

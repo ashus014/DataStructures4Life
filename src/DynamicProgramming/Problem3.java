@@ -1,16 +1,16 @@
 package DynamicProgramming;
 
+import java.util.Arrays;
+
 // Longest common subsequence (v.v.Important)
 public class Problem3 {
 
     // for memoization purpose
-    static int memo[][] = new int[10][10];
+    static int[][] memo = new int[10][10];
 
     static {
-        for (int i = 0; i < memo.length; i++) {
-            for (int j = 0; j < memo[i].length; j++) {
-                memo[i][j] = -1;
-            }
+        for (int[] ints : memo) {
+            Arrays.fill(ints, -1);
         }
     }
 
