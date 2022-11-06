@@ -1,5 +1,6 @@
-package Sorting;
+package Sorting.JavaSpecificSortingExamples;
 
+import Sorting.JavaSpecificSortingExamples.Point;
 
 import java.util.Arrays;
 

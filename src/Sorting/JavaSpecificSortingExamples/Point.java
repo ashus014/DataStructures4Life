@@ -1,4 +1,4 @@
-package Sorting;
+package Sorting.JavaSpecificSortingExamples;
 
 //comparing Array of Objects with Comparable interface
 class Point implements Comparable<Point> {

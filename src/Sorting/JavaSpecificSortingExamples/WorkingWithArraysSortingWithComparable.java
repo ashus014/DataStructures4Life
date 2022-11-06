@@ -1,6 +1,4 @@
-package Sorting;
-
-import java.sql.PseudoColumnUsage;
+package Sorting.JavaSpecificSortingExamples;
 import java.util.Arrays;
 
 public class WorkingWithArraysSortingWithComparable {
