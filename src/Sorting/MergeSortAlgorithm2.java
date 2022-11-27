@@ -1,6 +1,7 @@
 package Sorting;
 import java.util.Arrays;
 
+// Credits - Kunal Kushwaha
 // Much better approach  I like, compared to first one.
 public class MergeSortAlgorithm2 {
 
