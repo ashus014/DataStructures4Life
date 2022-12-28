@@ -75,6 +75,7 @@ AVL Tree does rotation to re-structure itself during insert and delete operation
 
 
 Red Black Tree -
+-- In JAVA & C++ implementation if HashSet and HashMap, red-black tree is used.
 It is slightly loose in terms of balance. Since this is loose in terms of balance.
 It requires less restructuring if you are doing insert or delete.
 Here as well, insertion & deletion operation requires some restructuring.
