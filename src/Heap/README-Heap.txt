@@ -40,3 +40,8 @@ eg.
                                 10
                        20               15
                    30       40      18
+
+Operations on Heap data structure
+---------------------------------
+Heapify : One of the sub nodes does not follow the min heap property, and
+we need to fix that.

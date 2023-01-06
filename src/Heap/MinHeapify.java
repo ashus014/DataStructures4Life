@@ -1,12 +1,12 @@
 package Heap;
 
-public class MinHeap {
+public class MinHeapify {
 
     int [] arr;
     int size;
     int capacity;
 
-    public MinHeap(int c){
+    public MinHeapify(int c){
         arr = new int[c];
         size = 0;
         capacity = c;
@@ -30,14 +30,18 @@ public class MinHeap {
         arr[y] = temp;
     }
 
-    void insert(int x){
-        if(size == capacity) return;
-
-        size++;
-        arr[size-1] = x;
-        for(int i=size-1; i!=0 && arr[parent(i)] > arr[i]; i++){
-            swap(arr, i, parent(i));
-            i = parent(i);
+    void minHeapify(int i) {
+        int lt = left(i), rt = right(i);
+        int smallest = i;
+        if(lt < size && arr[lt] < arr[i]) {
+            smallest = lt;
+        }
+        if(rt < size && arr[rt] < arr[smallest]) {
+            smallest = rt;
+        }
+        if(smallest != i) {
+            swap(arr, i, smallest);
+            minHeapify(smallest);
         }
     }
 }
